@@ -33,8 +33,7 @@ void cocktail_sort_list(listint_t **list)
 		return;
 
 	left_node = *list;
-	do
-	{
+	do {
 		swapped = 0;
 		while (left_node->next)
 		{
